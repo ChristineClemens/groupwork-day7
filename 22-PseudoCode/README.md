@@ -11,3 +11,16 @@
 * Think of basic elements like loops, if-else statements, arrays, alerts, etc.
 
 * Be prepared to share your outlines approach.
+
+
+//Prompt for user to pick either rock, paper, or scissors.
+
+//Validate the input.
+
+//Computer generates a number between 0-2 (0=rock)(1=paper)(2=scissors).
+
+//Compare user and computer output using if statements.
+
+//Calculate scores.
+
+//Declare winner using an alert.
