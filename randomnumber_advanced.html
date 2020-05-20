@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numPass = 0;
+        var numFail = 0;
+
+        for (var i = 0; i < 100; i++) {
+            var num = Math.floor (Math.random()*100)+1;
+            console.log(num);
+
+            if(num >= 1 && num <= 30) {
+                console.log (`${num} is a horrible grade!`)
+            
+            } else if(num >= 31 && num <= 60) {
+                console.log (`${num} is a bad grade!`)
+            
+            } else if(num >= 61 && num <= 90) {
+                console.log (`${num} is a passing grade!`)
+
+            } else {
+                console.log (`${num} is an amazing grade!`)
+            }
+        }
+    </script>
+</body>
+</html>
