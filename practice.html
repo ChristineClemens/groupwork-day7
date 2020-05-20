@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function vetCheck (name, age){
+
+            if( name == "Zebra" && age>5 ) {
+                console.log( "Zebra is going to the vet." );
+                
+            } else if( name == "Rhino" && age > 9 ) {
+                console.log( "Giraffe is going to the vet." );
+        
+            } else if( name == "Giraffe" && age > 4 ) {
+                console.log( "Giraffe is going to the vet." );
+            
+            } else if( name == "Owl" && age > 50 ) {
+                console.log( "Giraffe is going to the vet." );
+
+            } else {
+                console.log( "The animal does not need to go to the vet." );
+            }
+        }
+        var zooAnimals = ["Zebra", 6, "Rhino", 7, "Giraffe", 3, "Owl", 88];
+
+        for ( var animalIdx=0; animalIdx<zooAnimals.length; animalIdx++ ){
+            var name = zooAnimals[animalIdx];
+            var age = zooAnimals[animalIdx+1];
+            console.log(`Our zoo animal is ${name}`);  
+        }    
+            if( vetCheck( name, age) ){
+                console.log(`${name} is going to the vet!`);
+            } else {
+                console.log(`${name} is not going to the vet!`);
+            }
+        }
+    </script>
+</body>
+</html>
